@@ -91,7 +91,7 @@ void loop() {
      delay(20);
      if(distance <= 75){
        //A student is detected 75cm or less than 75cm away from ultrasonic sensor
-       Phone.call("0553925740");
+       Phone.call("DRIVER_PHONE_NUMBER"); // Replace with actual phone number
       /* Wait for 300 ms. */
       OneSheeld.delay(300);
       alarm();    //sound the alarm
